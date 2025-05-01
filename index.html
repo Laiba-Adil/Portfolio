@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laiba's Graphics</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: #007BFF;
+        }
+
+        button {
+            background-color: #22291d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #a3e5e3;
+            padding: 20px 0;
+        }
+
+        nav {
+            width: 85%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav .nav-links a {
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        /* Home Section */
+        .home {
+            width: 85%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            padding: 50px 0;
+        }
+
+        .home img {
+            width: 300px;
+            height: 500px;
+        }
+
+        /* Services */
+        .services {
+            background-color: #fafbff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .services .service-items {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding-top: 30px;
+        }
+
+        .services img {
+            width: 80px;
+        }
+
+        /* Skills */
+        .skills {
+            background-color: #F0F8FF;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .skills table {
+            margin: auto;
+        }
+
+        /* Contact */
+        .contact {
+            background-color: #AFEEEE;
+            padding: 50px 0;
+        }
+
+        .contact form {
+            width: 30%;
+            margin: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #696969;
+            padding: 50px 0;
+            color: white;
+            text-align: center;
+        }
+
+        footer img {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div><b style="font-family: Comic Sans MS; font-size: 20px;">Laiba's Graphics</b></div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Skills</a>
+            <a href="#">Team</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section class="home">
+    <div>
+        <h1>Hi,</h1>
+        <h2>I am Laiba Adil</h2>
+        <p>A passionate graphic designer with a keen eye for creativity and detail. I specialize in crafting visually compelling designs that bring brands to life. From logo design, branding, and print materials to social media graphics and UI/UX, I create designs that not only look great but also tell a powerful story.</p>
+        <hr>
+        <a href="cv.jpg.png"><button>Download CV</button></a>
+    </div>
+    <div>
+        <img src="icon.jpeg" alt="Icon Image">
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <h2 style="font-family: Georgia;">Services</h2>
+    <hr width="10%">
+    <p>These are my Services</p>
+    <div class="service-items">
+        <div>
+            <img src="flyericon.jpg"><br>
+            <h3>Flyers</h3>
+            <p>I create engaging, high-quality flyers that align with brand identity and marketing goals</p>
+        </div>
+        <div>
+            <img src="vectoricon.jpg"><br>
+            <h3>Vector Tracing</h3>
+            <p>Clean and precise vector tracing for a polished, professional look.</p>
+        </div>
+        <div>
+            <img src="brouchericon.jpg"><br>
+            <h3>Social Media Posters</h3>
+            <p>Visually compelling social media posters that align with brand identity and marketing goals.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+    <h2 style="font-family: Georgia;">Skills</h2>
+    <hr width="7%">
+    <table cellpadding="15">
+        <tr>
+            <td><label>Adobe Illustrator</label><br><progress value="95" max="100">95%</progress></td>
+            <td><label>Photoshop</label><br><progress value="85" max="100">85%</progress></td>
+        </tr>
+        <tr>
+            <td><label>Canva</label><br><progress value="65" max="100">65%</progress></td>
+            <td><label>Adobe After Effects</label><br><progress value="50" max="100">50%</progress></td>
+        </tr>
+    </table>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <form>
+        <h2>Contact Us</h2>
+        <hr width="32%">
+        <label>Name:</label><br>
+        <input type="text"><br><br>
+        <label>Mobile:</label><br>
+        <input type="number"><br><br>
+        <label>Message:</label><br>
+        <input type="text"><br><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div>
+        <img src="phoneicon.jpg"><br>
+        <div>Phone No.</div>
+        <div>03017456311</div>
+    </div>
+    <div>
+        <img src="mailicon.jpg"><br>
+        <div>Email</div>
+        <div>laibaadil30@gmail.com</div>
+    </div>
+    <div>
+        <img src="locationicon.jpg"><br>
+        <div>Location</div>
+        <div>Rawalpindi</div>
+    </div>
+</footer>
+
+</body>
+</html>
