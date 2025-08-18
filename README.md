@@ -33,9 +33,5 @@ This is a simple, responsive **portfolio website** designed for a graphic design
 
 > A static portfolio designed to showcase Laiba Adil's creative expertise in graphic design.
 
-## 📬 Contact
 
-- 📞 0301-7456311  
-- 📧 laibaadil30@gmail.com  
-- 📍 Rawalpindi, Pakistan
 
